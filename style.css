@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(143, 144, 175);
+}
+
+.card{
+    background-color: white;
+    text-align: center;
+    border: 5px solid rgb(138, 43, 170);
+    border-radius: 10%;
+    width: 600px;
+    height: 800px;
+    margin: 50px auto;
+    box-shadow: 6px 5px 5px rgb(123, 29, 139);
+}
+
+.card img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.card .name{
+    font-size: 60px;
+    font-family: sans-serif;
+}
+
+.card .job{
+    font-size: 30px;
+    font-family:sans-serif;
+    color: rgb(86, 85, 85);
+}
+
+.card .uni {
+    font-size: 30px;
+    font-family:sans-serif;
+    color: rgb(52, 50, 50);
+}
+
+.card i{
+    font-size: 30px;
+    margin: 5px;
+}
+
+.card button{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    background-color: black;
+    border: 3px solid black;
+    border-radius: 30px;
+    width: 200px;
+    &:hover{
+        background-color: rgb(133, 34, 166);
+    } 
+}
+
+i{
+    &:hover{
+        background-color: rgb(133, 34, 166);
+    }
+}
